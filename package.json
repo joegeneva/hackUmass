@@ -1,0 +1,17 @@
+{
+  "name": "hackumass",
+  "version": "0.0.1",
+  "description": "Build project",
+  "author": "wxie@umas.edu",
+  "license": "MIT",
+  "scripts": {
+    "build": "./node_modules/.bin/webpack",
+    "serve": "./node_modules/.bin/webpack-dev-server --content-base build"
+  },
+  "devDependencies": {
+    "react": "^0.14.6",
+    "react-dom": "^0.14.6",
+    "webpack": "^1.12.12",
+    "webpack-dev-server": "^1.14.1"
+  }
+}
